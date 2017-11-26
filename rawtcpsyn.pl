@@ -105,5 +105,3 @@ sub checksum {
 	
 	return(~(($chk >> 16) + $chk) & 0xffff);
 }
-
-# Client-Firewall_Server
